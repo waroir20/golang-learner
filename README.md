@@ -13,6 +13,7 @@ As you progress through the modules you will be expected to do more and more "fi
    - [Data Structures](#1-data-structures)
    - [Testing](#2-testing)
    - [Simple APIs](#3-simple-apis)  
+   - [Capstone: Recreate - Full Stack App](#n-capstone-full-stack-app)  
 
 ## Modules
 ### 1. Data Structures 
@@ -41,8 +42,21 @@ As you progress through the modules you will be expected to do more and more "fi
    Implement the APIs [here](3/api.go)
 
   #### Learning Objectives:
-  - Golang routing via the Gin framework
+  - Golang routing via the [Gin](https://github.com/gin-gonic/gin) framework
   - Struct tags
   - JSON serialization and deserialization from HTTP request
   - Simple struct validation
   - Http Status codes
+### N. Capstone Full-Stack-App
+   Previously you have created a working full stack application with a simple UI, a backend logic layer, and a persistence tier.  
+   Your goal will be to recreate that logic layer which has been written in Java/Python/C++ in Go 
+   (the goal is to understand that go is a fungible substitute for another backend language).
+   __It is important to make as few changes to the UI and DB layers as possible__ (*ideally no changes are needed, 
+   you are exchanging one set of APIs for another*).
+
+  #### Learning Objectives:
+  - Serving a UI from a golang application
+  - End-to-end http request to database persistence of data
+  - Sticking with a predefined contract
+  - Building a full-fledge Go app
+   
