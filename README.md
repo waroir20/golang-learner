@@ -31,3 +31,14 @@ Set of exercises to get going on golang
   - Struct tags
   - JSON serialization and deserialization
   - Simple struct validation
+### 3. Simple APIs
+   Work on building a set of simple REST APIs based on a pre-defined contract.
+   Sorry had to get a bit silly on this one (for reference I have started playing Final Fantasy 14 so lots of references). 
+   Implement the APIs [here](3/api.go)
+
+  #### Learning Objectives:
+  - Golang routing via the Gin framework
+  - Struct tags
+  - JSON serialization and deserialization from HTTP request
+  - Simple struct validation
+  - Http Status codes
