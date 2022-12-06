@@ -21,10 +21,13 @@ Set of exercises to get going on golang
    - Interfaces
    - Multiple return from function
    - Generic typing of: function parameters and returns, structs, and interface
-   - Pass by Reference vs Pass by Value ??TODO???
 ### 2. Testing
-   Blah blah blah
+   Expand on your golang abilities and dev into the beautiful world of testing.  
+   Implement the tests [here](2/learn-to-test_test.go)
 
    #### Learning Objectives:
   - Writing tests
   - Pass by Reference vs Pass by Value
+  - Struct tags
+  - JSON serialization and deserialization
+  - Simple struct validation

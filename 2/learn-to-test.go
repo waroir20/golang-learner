@@ -12,11 +12,13 @@ type MyStuff struct {
 }
 
 type Address struct {
-	StreetNumber int
-	StreetName   string `validate:"required,"` //TODO continue here
-	City         string
-	State        string
-	Country      string
+	Id           string `validate:"uuid"`
+	StreetNumber int    `validate:"gt=0"`
+	StreetName   string `validate:"required"`
+	City         string `validate:"-"`
+	State        string `validate:"required_if=Country 'USA'"`
+	Country      string `validate:"-"`
+	PostalCode   string `validate:"required,min=2"`
 }
 
 // SetAddressWithoutPointer - Notice how this does not update the address field
