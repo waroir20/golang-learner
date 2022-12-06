@@ -8,7 +8,11 @@ Set of exercises to get going on golang
 `go install`
 4. Make sure you can run the hello world app using the command:  
 `go run main.go`
-5. Go through each of the numbered module starting with 1 in order. __Remember to commit and push up often.__
+5. Go through each of the modules. __Remember to commit and push up often.__  
+As you progress through the modules you will be expected to do more and more "fill-in-the-blanks" meaning 100% of the steps you will need to do will not be explicitly stated, this is intentional.
+   - [Data Structures](#1-data-structures)
+   - [Testing](#2-testing)
+   - [Simple APIs](#3-simple-apis)  
 
 ## Modules
 ### 1. Data Structures 
