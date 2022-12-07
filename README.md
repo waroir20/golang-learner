@@ -14,7 +14,7 @@ As you progress through the modules you will be expected to do more and more "fi
    - [Testing](#2-testing)
    - [Simple APIs](#3-simple-apis)  
    - [Databases](#4-databases)
-   - [Capstone: Recreate - Full Stack App](#n-capstone-full-stack-app)
+   - [Capstone: Recreate - Full Stack App](#6-capstone-full-stack-app)
 
 ## Modules
 ### 1. Data Structures 
@@ -66,7 +66,15 @@ As you progress through the modules you will be expected to do more and more "fi
   - Use of TestContainers for integration testing
   - Use of lifecycle hooks for structs (based on them implementing a framework's interfaces)
   - Writing and testing your own code
-### N. Capstone Full-Stack-App
+### 5. Some cool things
+   See some cool things you can do with specific go commands. Use them to do cool things like run programs, compile binaries, etc.   
+
+   #### TODO
+   Run the command `go generate ./...` [Go Generate in all its goodness](5/generator.go)
+
+  #### Learning Objectives:
+  - Discover the power of go generate
+### 6. Capstone Full-Stack-App
    Previously you have created a working full stack application with a simple UI, a backend logic layer, and a persistence tier.  
    Your goal will be to recreate that logic layer which has been written in Java/Python/C++ in Go 
    (the goal is to understand that go is a fungible substitute for another backend language).
