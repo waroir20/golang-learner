@@ -14,6 +14,7 @@ As you progress through the modules you will be expected to do more and more "fi
    - [Testing](#2-testing)
    - [Simple APIs](#3-simple-apis)  
    - [Databases](#4-databases)
+   - [Some cool things about Go](#5-some-cool-things-about-go)
    - [Capstone: Recreate - Full Stack App](#6-capstone-full-stack-app)
 
 ## Modules
@@ -66,7 +67,7 @@ As you progress through the modules you will be expected to do more and more "fi
   - Use of TestContainers for integration testing
   - Use of lifecycle hooks for structs (based on them implementing a framework's interfaces)
   - Writing and testing your own code
-### 5. Some cool things
+### 5. Some cool things about Go
    See some cool things you can do with specific go commands. Use them to do cool things like run programs, compile binaries, etc.   
 
    #### TODO
