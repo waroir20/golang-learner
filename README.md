@@ -18,6 +18,8 @@ As you progress through the modules you will be expected to do more and more "fi
    - [Capstone: Recreate - Full Stack App](#6-capstone-full-stack-app)
 
 ## Modules
+### 0. Go Basics
+   TODO: private vs public, struct tags, packages 
 ### 1. Data Structures 
    Choose one of the common data structures and first implement the Non-generic version, then once all tests pass implement the generic version  
    *__Note__: your solution should be a self-contained golang struct*

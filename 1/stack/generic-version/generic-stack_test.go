@@ -233,7 +233,7 @@ func TestPush(t *testing.T) {
 			// uses bool
 			workerB.Push(i%2 == 0)
 		}
-		assert.Equal(t, i, workerB.Size())
+		assert.Equal(t, i, workerB.Size()-1)
 	}
 	assert.True(t, workerB.Contains("0"), "can access bottom of stack")
 	assert.True(t, workerB.Contains(1))

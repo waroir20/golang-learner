@@ -119,7 +119,7 @@ func TestPush(t *testing.T) {
 	workerB := queue.New()
 	for i := 0; i < 10_000; i++ {
 		workerB.Push(fmt.Sprintf("%d", i))
-		assert.Equal(t, i, workerB.Size())
+		assert.Equal(t, i, workerB.Size()-1)
 	}
 	assert.True(t, workerB.Contains("10000"), "can access back of queue")
 	assert.False(t, workerB.Contains("XYZ"))

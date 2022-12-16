@@ -233,7 +233,7 @@ func TestPush(t *testing.T) {
 			// uses bool
 			workerB.Push(i%2 == 0)
 		}
-		assert.Equal(t, i, workerB.Size())
+		assert.Equal(t, i, workerB.Size()-1)
 	}
 	assert.True(t, workerB.Contains(10000), "can access back of queue")
 	assert.True(t, workerB.Contains("3"))

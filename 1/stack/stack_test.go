@@ -119,7 +119,7 @@ func TestPush(t *testing.T) {
 	workerB := stack.New()
 	for i := 0; i < 10_000; i++ {
 		workerB.Push(fmt.Sprintf("%d", i))
-		assert.Equal(t, i, workerB.Size())
+		assert.Equal(t, i, workerB.Size()-1)
 	}
 	assert.True(t, workerB.Contains("0"), "can access bottom of stack")
 	assert.False(t, workerB.Contains("XYZ"))
